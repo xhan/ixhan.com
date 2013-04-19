@@ -1,0 +1,13 @@
+---
+author: xhan
+comments: true
+date: 2010-01-03 05:08
+layout: page
+title: 404 PNF
+header_top: | 
+  <script> var myRoute = document.location + "";
+     if (myRoute!=myRoute.toLowerCase())   document.location=myRouteLC;
+  </script>
+---
+
+![Page Not Founded](/assets/404.jpg)
