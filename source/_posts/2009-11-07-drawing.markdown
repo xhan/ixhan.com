@@ -1,0 +1,30 @@
+---
+author: xhan
+comments: true
+date: 2009-11-07 01:00:17
+layout: post
+slug: drawing
+title: 涂鸦
+wordpress_id: 151
+categories:
+- Life
+tags:
+- c
+- drawing
+- magic mouse
+- painter
+---
+
+几个月前在广州买了个手绘板，至今一共画了3张画。
+
+第一张，测试下Painter和压感而已。
+
+第二张，今天画的。根本没法控制铅笔的笔触，要么画不出来，要么就太重了，所以效果就是这么一回事了。
+
+第三张，唯一一张超过2小时的作品，模仿之作，可惜模仿出来的风格和原作完全不一致，而且脸型也变了。
+
+画画的过程真愉悦，再次感谢@yining同学送的“Painter绘画技法一书” 谢谢拉。
+
+PS（今天一冲动入手了 Magic Mouse，等我的周一测评吧哈哈）
+
+[gallery]

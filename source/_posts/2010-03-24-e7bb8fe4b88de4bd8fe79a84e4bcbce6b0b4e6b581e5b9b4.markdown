@@ -1,0 +1,39 @@
+---
+author: xhan
+comments: true
+date: 2010-03-24 20:08:17
+layout: post
+slug: '%e7%bb%8f%e4%b8%8d%e4%bd%8f%e7%9a%84%e4%bc%bc%e6%b0%b4%e6%b5%81%e5%b9%b4'
+title: 经不住的似水流年
+wordpress_id: 283
+categories:
+- Life
+tags:
+- 决定
+- c
+- game
+---
+
+如题.
+
+文字少了点,贴个图.
+
+[![](http://ixhan.com/wp-content/uploads/2010/03/60a82447bbc4ccb02d21c02c5a4817dd.jpg)](http://ixhan.com/wp-content/uploads/2010/03/60a82447bbc4ccb02d21c02c5a4817dd.jpg)
+
+PS. wiki系统重新回来了!!(页面右上角的NOTE),这一个多月的时间内被广告攻陷了,今天费了好久才整回来.新增加两个关于MediaWiki的note.
+
+===== 觉得太标题党了点,更新点内容  =========
+
+最近保持了很长一段时间的迷茫,之前做事想来是跟着感觉走,用李开复装逼的方法说就是follow my heart ,决定了也就义无反顾了. 现在发生的事却让我开始怀疑起自己的决定.如何才能做一个好的决定?
+
+过去的一年里认识了3个人.
+
+第一个人推荐了我本书 Programming Game AI by example
+
+第二个人送了我本书 The beauty of code
+
+第三个人推荐了本书 More joel on software
+
+经历了不少,成功的失败的,学到很多.甚至还没来得及给2010年企划,居然已经过去1/4年了.
+
+以后会花更多时间在思考上,而不是鲁莽行事.
