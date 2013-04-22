@@ -6,7 +6,7 @@ layout: page
 title: 404 PNF
 header_top: | 
   <script> var myRoute = document.location + "";
-     if (myRoute!=myRoute.toLowerCase())   document.location=myRouteLC;
+     if (myRoute!=myRoute.toLowerCase())   document.location=myRoute.toLowerCase();
   </script>
 ---
 

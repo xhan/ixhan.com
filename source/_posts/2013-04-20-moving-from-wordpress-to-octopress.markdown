@@ -41,7 +41,7 @@ categories:
 
 ``` html  如果请求地址存在大写字母则跳到全小写的地址
   <script> var myRoute = document.location + "";
-     if (myRoute!=myRoute.toLowerCase())   document.location=myRouteLC;
+     if (myRoute!=myRoute.toLowerCase())   document.location=myRoute.toLowerCase();
   </script>
 ```
 
