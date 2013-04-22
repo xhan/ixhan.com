@@ -26,15 +26,15 @@ But in fact there are many JSON encoder may generates JSON string contains inval
 
 Edit JSONKit.m file:
 
-    
-     //GOTO Line 1462 or nearby
-    //      remove this line
-    //      if(JK_EXPECT_F(currentChar < 0x20UL)) { jk_error(parseState, @"Invalid character < 0x20 found in string: 0x%2.2x.", currentChar); stringState = JSONStringStateError; goto finishedParsing; }
-    
-    //      add following codes
-            if(JK_EXPECT_F(currentChar < 0x20UL) && (parseState->parseOptionFlags & JKParseOptionLooseUnicode) == 0) {            
-                jk_error(parseState, @"Invalid character < 0x20 found in string: 0x%2.2x.", currentChar); stringState = JSONStringStateError; goto finishedParsing;
-            }
-            else {	
-                currentChar = 0xFFFDUL;
-            }
+``` objectivec
+//	GOTO Line 1462 or nearby and remove this line
+//	if(JK_EXPECT_F(currentChar < 0x20UL)) { jk_error(parseState, @"Invalid character < 0x20 found in string: 0x%2.2x.", currentChar); stringState = JSONStringStateError; goto finishedParsing; }
+
+//	add following codes
+if(JK_EXPECT_F(currentChar < 0x20UL) && (parseState->parseOptionFlags & JKParseOptionLooseUnicode) == 0) {            
+    jk_error(parseState, @"Invalid character < 0x20 found in string: 0x%2.2x.", currentChar); stringState = JSONStringStateError; goto finishedParsing;
+}
+else {	
+    currentChar = 0xFFFDUL;
+}
+```

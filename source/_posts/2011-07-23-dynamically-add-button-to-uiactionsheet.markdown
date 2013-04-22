@@ -13,18 +13,18 @@ tags:
 - UIActionSheet
 ---
 
-UIActionSheet 只提供了一个构造函数
-[code lang="objc"]
+UIActionSheet 只提供了一个构造函数:  
+``` objectivec
 - (id)initWithTitle:(NSString *)title delegate:(id&lt;UIActionSheetDelegate&gt;)delegate cancelButtonTitle:(NSString *)cancelButtonTitle destructiveButtonTitle:(NSString *)destructiveButtonTitle otherButtonTitles:(NSString *)otherButtonTitles, ...
-[/code]
-如果需要动态的添加按钮，就必须使用另外个函数：
-[code lang="objc"]- (NSInteger)addButtonWithTitle:(NSString *)title;[/code]
+```
+如果需要动态的添加按钮，就必须使用另外个函数：  
+``` objectivec
+- (NSInteger)addButtonWithTitle:(NSString *)title;
+```
 但出现的诡异结果是新添加的内容均出现在 取消 按钮之下，非常讨厌。
 
-解决方法直接看代码
-
-
-[code lang="objc"]
+解决方法直接看代码:
+``` objectivec
 //.....
     UIActionSheet* sheet = [[UIActionSheet alloc] initWithTitle:NSLocalizedString(@"请选择埋掉的原因", @"reason to bury")
                                                        delegate:self
@@ -37,4 +37,4 @@ UIActionSheet 只提供了一个构造函数
     [sheet addButtonWithTitle:NSLocalizedString(@"取消", @"cancel button title")];
     sheet.cancelButtonIndex = sheet.numberOfButtons - 1;
 //....
-[/code]
+```

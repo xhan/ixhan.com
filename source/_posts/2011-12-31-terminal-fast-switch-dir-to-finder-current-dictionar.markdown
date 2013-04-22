@@ -18,30 +18,30 @@ tags:
 
 在忍受了无数次拖拽后突然想到通过 AppleScript 来获取路径并传送到终端. 考虑过ruby,需要额外的gem支持.  考虑过用 objc 写个工具, 但随后发现个命令 osascript 能直接运行 AppleScript的代码 ,解脱!
 
+``` applescript
+tell application "Finder" to set myname to POSIX path of (target of window 1 as alias)
+```
 
-> tell application "Finder" to set myname to POSIX path of (target of window 1 as alias)
-
-
-这段代码能将当前的Finder的路径输出,  可以使用 osascript -e 'codes' 来测试结果.
+这段代码能将当前的Finder的路径输出, 可以使用 `osascript -e 'codes'` 来测试结果.
 
 编辑 ~/.profile  (没有就创建一个), 添加如下代码
 
 
-> 
 
->     
->     function cdf() # cd to finder's front's window's path
->     {
->        path="`osascript -e 'tell application "Finder" to set myname to POSIX path of (target of window 1 as alias)' 2>/dev/null`"
->        if [ -n "$path" ]; then
->           echo "cd to $path"
->           cd "$path"
->        else
->           echo "no finder window finded"
->        fi  
->     }
-> 
-> 
+
+``` bash
+ function cdf() # cd to finder's front's window's path
+ {
+    path="`osascript -e 'tell application "Finder" to set myname to POSIX path of (target of window 1 as alias)' 2>/dev/null`"
+    if [ -n "$path" ]; then
+       echo "cd to $path"
+       cd "$path"
+    else
+       echo "no finder window finded"
+    fi  
+ }
+```
+
 
 
 

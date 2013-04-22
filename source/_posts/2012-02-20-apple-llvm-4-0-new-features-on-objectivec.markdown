@@ -22,14 +22,9 @@ tags:
 > Xcode now includes the Apple LLVM Compiler version 4.0, including the following newObjective-C language features:
 
 > 
-> 
-	
+> 	
 >   * Default @synthesize: automatically synthesizes an @property when unimplemented
-> 
-	
->   * Objective-C literals: create literals for NSArray, NSDictionary, and NSNumber, just the same as the literals for NSString
-> 
-	
+>   * Objective-C literals: create literals for NSArray, NSDictionary, and NSNumber, just the same as the literals for NSString	
 >   * Objective-C container subscripting: use '[]' syntax to access containers such asNSArray and NSDictionary
 > 
 
@@ -46,36 +41,36 @@ tags:
 
 _Previously:_
 
-    
+``` objectivec
     array = [NSArray arrayWithObjects:a, b, c, nil];
-
+```
 
 _Now:_
 
-    
+``` objectivec    
     array = @[ a, b, c ];
-
+```
 
 **NSDictionary Literals**
 
 _Previously:_
 
-    
+``` objectivec
     dict = [NSDictionary dictionaryWithObjects:@[o1, o2, o3]
     					forKeys:@[k1, k2, k3]];
-
+```
 
 _Now:_
 
-    
+``` objectivec    
     dict = @{ k1 : o1, k2 : o2, k3 : o3 };
-
+```
 
 **NSNumber Literals**
 
 _Previously:_
 
-    
+``` objectivec 
     NSNumber *number;
     number = [NSNumber numberWithChar:'X'];
     number = [NSNumber numberWithInt:12345];
@@ -84,11 +79,11 @@ _Previously:_
     number = [NSNumber numberWithFloat:123.45f];
     number = [NSNumber numberWithDouble:123.45];
     number = [NSNumber numberWithBool:YES];
-
+```
 
 _Now:_
 
-    
+``` objectivec    
     NSNumber *number;
     number = @'X';
     number = @12345;
@@ -97,6 +92,6 @@ _Now:_
     number = @123.45f;
     number = @123.45;
     number = @YES;
-
+```
 
 [原文Link](http://cocoaheads.tumblr.com/post/17757846453/objective-c-literals-for-nsdictionary-nsarray-and)

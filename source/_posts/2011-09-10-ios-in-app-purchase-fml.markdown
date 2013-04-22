@@ -20,57 +20,33 @@ tags:
 To save you the pain of exhaustively searching the web for the cause of your error, here is a checklist of everything I have stumbled across that can cause an invalid product ID. Make sure you can answer “Yes” to each of these questions:
 
 
-
-	
-  * Have you enabled In-App Purchases for your App ID?
-
-	
+  * Have you enabled In-App Purchases for your App ID?	
   * Have you checked Cleared for Sale for your product?
-
-	
   * Have you submitted (and optionally rejected) your application binary?
-
-	
   * Does your project’s .plist Bundle ID match your App ID?
-
-	
   * Have you generated and installed a new provisioning profile for the new App ID?
-
-	
   * Have you configured your project to code sign using this new provisioning profile?
-
-	
   * Are you building for iPhone OS 3.0 or above?
-
-	
   * Are you using the full product ID when when making an `SKProductRequest`?
-
-	
   * Have you waited several hours since adding your product to iTunes Connect?
-
-	
   * Are your bank details active on iTunes Connect?
-
-	
   * Have you tried deleting the app from your device and reinstalling?
-
-	
   * Is your device jailbroken? If so, you need to revert the jailbreak for IAP to work.
 
 
-If you answered “No” to any one of these questions, there’s your problem.
+If you answered “No” to any one of these questions, there’s your problem.  
 
 [原文](http://troybrant.net/blog/2010/01/invalid-product-ids/)附录了一大堆**可能**提供解决方案的链接，如果你也有类似的问题可以尝试下。
-当然stackoverflow也有大量关于IAP的离奇问题
+当然stackoverflow也有大量关于IAP的离奇问题  
 
 －－－ 更新 －－－
 
-刷玩最新的 4.3.5后，然后什么都没改动就突然能用了。
+刷玩最新的 4.3.5后，然后什么都没改动就突然能用了。  
 
-这里有篇写的不错的教程，希望对用IAP的人有帮助
+这里有篇写的不错的教程，希望对用IAP的人有帮助  
 
 
-# [In App Purchases: A Full Walkthrough](http://troybrant.net/blog/2010/01/in-app-purchases-a-full-walkthrough/)
+[In App Purchases: A Full Walkthrough](http://troybrant.net/blog/2010/01/in-app-purchases-a-full-walkthrough/)
 
 
 
