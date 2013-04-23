@@ -13,7 +13,8 @@ tags:
 - tutorial
 ---
 
-> Thanks for Purchasing, [Here is a Plugin for LyricStream. Once it's installed, you no longer need to search and download LRC file manually!](http://ixhan.com/lesslyrics/plugin/)     #[感谢购买,安装本插件即可自动搜索歌词](http://ixhan.com/lesslyrics/plugin/)
+> Thanks for Purchasing, [Here is a Plugin for LyricStream. Once it's installed, you no longer need to search and download LRC file manually!](http://ixhan.com/lesslyrics/plugin/)    
+>  [感谢购买,安装本插件即可自动搜索歌词](http://ixhan.com/lesslyrics/plugin/)
 
 
 LyricStream supports LRC format([WIKI](http://en.wikipedia.org/wiki/LRC_(file_format))) lyric files.  LRC is lyric text file with timing.
@@ -28,32 +29,15 @@ So the first one should be right result. Press the little LRC icon on the right 
 
 Last thing, you need to make LyricStream works with this LRC file, following these steps:
 
-
-
 	
   1. rename LRC file to "ArtistName--SongName.Lrc", so the gaga's LRC file will be "Lady GaGa--Poker Face.Lrc"
-
-	
   2. open LyricStream, find the music icon on your status bar, switch "LRC Manager", it will tell you how many lyric files you already have.
-
-	
   3. press "show lyrics folder" button, drag LRC file to there. and then rescan lyrics. it should appears on Lyrics Window.
-
-	
   4. Play the Poker Face song, you should see the fantastic Lyric Stream Effect!
 
 
 
 
----------
-
-
-
-
- Here is a Youtube Video about how to make your own LRC file. watch it if interested.
-
-
-
-
+Here is a Youtube Video about how to make your own LRC file. watch it if interested.
 
 
