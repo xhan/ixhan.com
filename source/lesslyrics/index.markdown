@@ -28,96 +28,45 @@ tags:
 
 ### System Requirement 支持系统
 
-
 Mac OSX 10.6(Snow Leopard), 10.7(Lion)
 
 
 ### Features 特性
-
-
-
-
+	
+* 自动歌词搜索，海量歌词
+* 支持繁体中文歌曲
+* 流动显示歌词
+* 歌词本地保存支持
+* 歌词写入歌曲标签支持
+* 免费，不断更新
 
 	
-  * 自动歌词搜索，海量歌词
-
-	
-  * 支持繁体中文歌曲
-
-	
-  * 流动显示歌词
-
-	
-  * 歌词本地保存支持
-
-	
-  * 歌词写入歌曲标签支持
-
-	
-  * 免费，不断更新
-
-
-
-	
-  * Automatically search/download lyric
-
-	
-  * display lyric with Karaoke style streaming
-
-	
-  * Save lyric to disk and sound track
-
-	
-  * Free, keeping updates
-
-
+* Automatically search/download lyric
+* display lyric with Karaoke style streaming
+* Save lyric to disk and sound track
+* Free, keeping updates
 
 
 ### Download 下载
 
 
-v0.8 (Beta) at 22Sep 2011
+v0.9.1 (Beta) @2012
 
-
-下载地址(Download Link) -> [download id="9"]
-
-
-
+[下载地址Download Link](/app/LessLyrics.dmg)
 
 ### Video 视频
 
-
-
-
+TODO: 加上
 
 ### FAQ 小白问题
 
 
-
-
-
-	
-  * 如何退出 => 点击屏幕上方状态栏音乐夹标签,选中退出
-
-	
-  * How to Quit => find the "Music Folder" icon on the status bar(top-right of screen)  and select quit
-
-	
+  * 如何退出 => 点击屏幕上方状态栏音乐夹标签,选中退出	
+  * How to Quit => find the "Music Folder" icon on the status bar(top-right of screen)  and select quit	
   * 如何删除程序 => 拖入LessLyrics到垃圾箱
-
-	
   * How to Delete app => drag it into Trash
-
-	
   * 看不见歌词 => 网络故障或服务器没该歌曲歌词信息
-
-	
   * Lyrics not available => check your internet connection status or the server doesent contains lyrics info of your songs.
-
-
-
-
-
 
 
 ### 捐助 Donations

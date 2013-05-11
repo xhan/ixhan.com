@@ -29,11 +29,9 @@ LessDJ 乐杰电台 --- 无拘无束,享受Mac上最纯净的音乐电台
 
 > [在Mac App Store 免费下载](http://itunes.apple.com/app/id498927337?mt=12)
 
-本地下载地址(Download Link) -> [download id="14"]
+[本地下载地址(Download Link)](/app/lessdj/LessDJ_v1.6.zip)
 
 支持系统: 10.6.8+ (Snow Leopard)
-
-
 
 
 > 歌词插件 [LessLyrics](/LessLyrics) (需要同时打开LL才能看到歌词哦)
@@ -42,9 +40,3 @@ LessDJ 乐杰电台 --- 无拘无束,享受Mac上最纯净的音乐电台
 [[gallery]
 
 ](http://ixhan.com/wp-content/uploads/2011/11/Screen-Shot-2011-11-14-at-9.04.10-PM.png)
-
-
-
-
-
-
