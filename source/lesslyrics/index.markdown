@@ -16,20 +16,14 @@ tags:
 - 歌词
 ---
 
-### 号外~ 支持**豆瓣电台+歌词显示**的 **[LessDJ](http://ixhan.com/project/lessdj/)** 音乐电台软件已经面市, 欢迎使用.
+### 支持**豆瓣电台+歌词显示**的 **[LessDJ](http://ixhan.com/project/lessdj/)** 音乐电台软件已经面市, 欢迎使用.
 
 
 [![LessLyrics Screen shot](http://ixhan.com/wp-content/uploads/2010/08/Screen-Shot-2011-09-25-at-12.17.59-PM.png)](http://ixhan.com/wp-content/uploads/2010/08/Screen-Shot-2011-09-25-at-12.17.59-PM.png)
 
 > LessLyrics is a Mac App to search/show your **Karaoke style** streaming **Lyrics** of current playing tracks on **iTunes**.
 
-> LessLyrics 是小巧的显示iTunes歌曲歌曲的软件 Mac版。
-
-
-### System Requirement 支持系统
-
-Mac OSX 10.6(Snow Leopard), 10.7(Lion)
-
+> LessLyrics 是小巧的显示iTunes歌曲歌曲的软件 Mac版。同时它能支持LessDJ，QQ音乐等软件的外挂歌词效果。
 
 ### Features 特性
 	
@@ -39,20 +33,29 @@ Mac OSX 10.6(Snow Leopard), 10.7(Lion)
 * 歌词本地保存支持
 * 歌词写入歌曲标签支持
 * 免费，不断更新
+* 支持多款软件 iTunes, LessDJ, QQ音乐
+
+[如何支持QQ音乐外挂字幕](/2013/05/lesslyrics-acts-with-qqmusic/)
+
 
 	
 * Automatically search/download lyric
 * display lyric with Karaoke style streaming
 * Save lyric to disk and sound track
 * Free, keeping updates
-
+* supprots various apps, including iTunes, LessDJ , QQMusic
 
 ### Download 下载
 
 
-v0.9.1 (Beta) @2012
+v1.0.1 (Beta) @2013
 
-[下载地址Download Link](/app/LessLyrics.dmg)
+[下载地址Download Link](/app/LessLyrics_latest.tar.gz)
+
+> System Requirement 支持系统  
+Mac OSX 10.6(Snow Leopard) +
+PS. 这是最后一个支持 10.6的版本
+
 
 ### Video 视频
 
