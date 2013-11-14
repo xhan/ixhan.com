@@ -11,4 +11,4 @@ ln -s ../ixhan.com.wp/wp-content wp-content
 
 echo "ErrorDocument 404 /404.html" > .htaccess
 
-rake deploy
+bundle exec rake deploy
